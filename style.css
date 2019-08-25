@@ -1,0 +1,35 @@
+.layoutgrade {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto; 
+    
+}
+.cabecalho {
+    background-color: rgb(190, 166, 212);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.corpo {
+    background-color: rgba(245, 75, 75, 0.815);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+.barralateral {
+    background-color: rgba(92, 241, 209, 0.815);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+.rodape {
+    background-color: rgb(238, 117, 208);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
